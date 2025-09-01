@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostille & Mobile Notary Services in Sacramento | Signed & Secured</title>
+    <meta name="description" content="Your trusted source for apostille, mobile notary, loan signing, and Live Scan fingerprinting services in Rancho Cordova, Sacramento, and Folsom.">
+    <meta name="keywords" content="apostille sacramento, mobile notary rancho cordova, live scan sacramento, insurance services california, loan signing agent, fair oaks, carmichael, rocklin, natomas, west sacramento, el dorado hills">
+    
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dsk88y3cg/image/upload/v1755760943/Logo_icon_white_background_-removebg-preview_d4xi3b.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dsk88y3cg/image/upload/v1755760943/Logo_icon_white_background_-removebg-preview_d4xi3b.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dsk88y3cg/image/upload/v1755760943/Logo_icon_white_background_-removebg-preview_d4xi3b.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/dsk88y3cg/image/upload/v1755760943/Logo_icon_white_background_-removebg-preview_d4xi3b.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.signedandsecured.com/">
+    <meta property="og:title" content="Apostille & Mobile Notary Services in Sacramento | Signed & Secured">
+    <meta property="og:description" content="Your trusted source for apostille, mobile notary, loan signing, and Live Scan fingerprinting services in Rancho Cordova, Sacramento, and Folsom.">
+    <meta property="og:image" content="https://i.imgur.com/36xTQ04.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.signedandsecured.com/">
+    <meta property="twitter:title" content="Apostille & Mobile Notary Services in Sacramento | Signed & Secured">
+    <meta property="twitter:description" content="Your trusted source for apostille, mobile notary, loan signing, and Live Scan fingerprinting services in Rancho Cordova, Sacramento, and Folsom.">
+    <meta property="twitter:image" content="https://i.imgur.com/36xTQ04.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NotaryPublic",
+      "name": "Signed & Secured Mobile Notary",
+      "image": "https://i.imgur.com/36xTQ04.png",
+      "telephone": "916-761-0211",
+      "email": "info@signedsecured.com",
+      "description": "Professional apostille, mobile notary, loan signing, Live Scan fingerprinting, and insurance services serving Rancho Cordova, Sacramento, and the surrounding areas.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rancho Cordova",
+        "addressRegion": "CA",
+        "postalCode": "95742",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Circle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "38.5891",
+          "longitude": "-121.3029"
+        },
+        "geoRadius": "64374"
+      }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': '#0A192F',
+                        'light-navy': '#112240',
+                        'gold': '#B9975B',
+                        'cream': '#FDFCF9',
+                        'pale-gold': 'rgba(185, 151, 91, 0.05)',
+                        'teal': '#1D6A6A',
+                        'coral': '#D9826B',
+                    },
+                    fontFamily: {
+                        'serif': ['Cormorant Garamond', 'serif'],
+                        'sans': ['Montserrat', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .fade-in-section { opacity: 0; transform: translateY(30px); transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+        .fade-in-section.is-visible { opacity: 1; transform: translateY(0); }
+        #hero-video-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1; }
+        #hero-video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translateX(-50%) translateY(-50%); object-fit: cover; }
+        .hero-gradient { background: linear-gradient(90deg, rgba(10, 25, 47, 0.85) 0%, rgba(10, 25, 47, 0.6) 50%, rgba(10, 25, 47, 0.1) 100%); }
+        .service-card { position: relative; display: flex; flex-direction: column; height: 100%; transition: transform 0.3s ease-out; }
+        .service-card:hover { transform: translateY(-8px); }
+        .service-card::before, .service-card::after, .service-card .card-border-right, .service-card .card-border-bottom { content: ''; position: absolute; background: #B9975B; transition: transform 0.4s ease-out; }
+        .service-card::before { top: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); transform-origin: left; }
+        .service-card::after { top: 0; left: 0; width: 2px; height: 100%; transform: scaleY(0); transform-origin: top; }
+        .service-card .card-border-right { top: 0; right: 0; width: 2px; height: 100%; transform: scaleY(0); transform-origin: bottom; }
+        .service-card .card-border-bottom { bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); transform-origin: right; }
+        .service-card:hover::before, .service-card:hover::after, .service-card:hover .card-border-right, .service-card:hover .card-border-bottom { transform: scale(1); }
+        .accordion-content { overflow: hidden; max-height: 0; transition: max-height 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94), padding-top 0.5s, padding-bottom 0.5s; }
+        .chart-table .chart-row { display: grid; border-bottom: 1px solid #f0ebe2; }
+        .chart-table .chart-cell { padding: 0.75rem 0.5rem; }
+        .chart-table .chart-header .chart-cell { font-weight: bold; color: #0A192F; }
+        .chart-table .chart-row:last-child { border-bottom: none; }
+        .social-icon svg { transition: fill 0.3s ease-in-out; }
+        .social-icon:hover svg { fill: #B9975B !important; }
+        .modal { position: fixed; inset: 0; background: rgba(10,25,47,0.85); display: none; }
+        .modal.visible { display: block; }
+        .modal-content { background: #0A192F; border: 1px solid rgba(185,151,91,0.3); border-radius: 12px; }
+        .hamburger { cursor: pointer; width: 24px; height: 24px; transition: all 0.25s; position: relative; }
+        .hamburger-top, .hamburger-middle, .hamburger-bottom { position: absolute; top: 0; left: 0; width: 24px; height: 2px; background: #0A192F; transform: rotate(0); transition: all 0.5s; }
+        .hamburger-middle { transform: translateY(7px); }
+        .hamburger-bottom { transform: translateY(14px); }
+        .open .hamburger-top { transform: rotate(45deg) translateY(6px) translateX(6px); }
+        .open .hamburger-middle { display: none; }
+        .open .hamburger-bottom { transform: rotate(-45deg) translateY(6px) translateX(-6px); }
+        .mobile-menu { position: absolute; top: 82px; right: 2rem; width: 250px; background: rgba(17, 34, 64, 0.9); backdrop-filter: blur(8px); border: 1px solid rgba(185, 151, 91, 0.3); border-radius: 8px; display: flex; flex-direction: column; align-items: flex-start; text-align: left; gap: 0.5rem; padding: 1.5rem; }
+        .apostille-process { list-style: none; padding-left: 0; }
+        .apostille-process li { position: relative; padding-left: 1.75rem; margin-bottom: 1rem; }
+        .apostille-process li::before { content: '✓'; position: absolute; left: 0; top: 2px; color: #B9975B; font-weight: bold; }
+        .testimonial-carousel-container { position: relative; max-width: 640px; margin: auto; }
+        .testimonial-slider { display: flex; transition: transform 0.5s ease-in-out; }
+        .testimonial-slide { min-width: 100%; box-sizing: border-box; }
+        .carousel-dots { text-align: center; padding: 10px 0; }
+        .dot { cursor: pointer; height: 12px; width: 12px; margin: 0 4px; background-color: rgba(10, 25, 47, 0.2); border-radius: 50%; display: inline-block; transition: background-color 0.6s ease; }
+        .dot.active { background-color: #0A192F; }
+        video::-webkit-media-controls { display: none !important; }
+        video::-webkit-media-controls-enclosure { display: none !important; }
+        video::-webkit-media-controls-panel { display: none !important; }
+        video::-webkit-media-controls-play-button { display: none !important; }
+        
+        @media (max-width: 768px) { 
+            #hero-video { object-position: 50% 35%; }
+            .chart-table .chart-header { display: none; }
+            .chart-table .chart-row { grid-template-columns: 1fr; border-bottom: 1px solid #e0d9ce; padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+            .chart-table .chart-body .chart-row:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+            .chart-table .chart-cell { padding: 0.25rem 0; line-height: 1.6; font-size: 0.8rem; } 
+            .chart-table .chart-cell:before {
+                content: attr(data-label);
+                font-weight: 600;
+                display: block;
+                margin-bottom: 0.25rem;
+                color: #B9975B;
+                font-size: 0.75rem;
+                text-transform: uppercase;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-cream text-navy/90 font-sans antialiased">
+
+    <header id="main-header" class="bg-cream/50 backdrop-blur-xl fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-md">
+        <div class="w-full mx-auto px-4 md:px-8 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#hero" class="flex items-center space-x-2 md:space-x-4">
+                    <img src="https://i.imgur.com/36xTQ04.png" alt="Signed & Secured Logo" class="h-14 w-auto transition-all duration-300">
+                    <span class="font-serif text-lg md:text-2xl font-bold text-navy block">Signed & Secured</span>
+                </a>
+                <div class="flex items-center space-x-4 md:space-x-6">
+                    <a href="https://calendly.com/signedsecured-info/30min" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/signedsecured-info/30min'});return false;" class="magnetic-button bg-gold text-white font-bold py-3 px-6 rounded-md hover:bg-navy transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-sm md:text-base">
+                        Book Now
+                    </a>
+                    <button id="menu-btn" class="hamburger focus:outline-none z-50">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+                <div id="menu" class="mobile-menu hidden">
+                    <a href="#about" class="menu-link text-xl text-cream hover:text-gold transition-colors duration-300">About</a>
+                    <a href="#services" class="menu-link text-xl text-cream hover:text-gold transition-colors duration-300">Services</a>
+                    <a href="#resources" class="menu-link text-xl text-cream hover:text-gold transition-colors duration-300">Resources</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="relative min-h-screen flex items-center">
+             <div id="hero-video-container">
+                <video autoplay loop muted playsinline id="hero-video" poster="https://media.istockphoto.com/id/2172939942/photo/hands-paper-and-pen-for-signature-with-business-person-closeup-in-office-for-agreement-or.jpg?s=612x612&w=0&k=20&c=0Ap23k1B6IBnCE49PzT3PuCeINS3_9U5LRzuRShnMcc=">
+                    <source src="https://res.cloudinary.com/dsk88y3cg/video/upload/v1755757952/S_S_Stock_Video_-_Made_with_Clipchamp_qcwxdy.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="absolute inset-0 hero-gradient"></div>
+            <div class="relative container mx-auto px-6 text-white text-left">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl md:text-7xl font-serif font-bold leading-tight mb-4 fade-in-section">
+                        For Life's Most Important Moments.
+                    </h1>
+                    <p class="text-xl md:text-2xl font-light mb-8 fade-in-section" style="transition-delay: 150ms;">
+                        Your Trusted Mobile Notary, Apostille, Live Scan, and Insurance professional for the Greater Sacramento Area.
+                    </p>
+                    <div class="flex space-x-4 fade-in-section" style="transition-delay: 300ms;">
+                        <a href="https://calendly.com/signedsecured-info/30min" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/signedsecured-info/30min'});return false;" class="magnetic-button bg-gold text-white font-bold py-4 px-8 rounded-md hover:bg-white hover:text-gold transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
+                            Schedule an Appointment
+                        </a>
+                        <a href="#services" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-md hover:bg-white hover:text-navy transition-all duration-300">
+                            Explore Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 md:py-24 bg-cream">
+            <div class="container mx-auto px-6"><div class="grid md:grid-cols-2 gap-12 items-center"><div class="fade-in-section"><img src="https://media.istockphoto.com/id/2172939942/photo/hands-paper-and-pen-for-signature-with-business-person-closeup-in-office-for-agreement-or.jpg?s=612x612&w=0&k=20&c=0Ap23k1B6IBnCE49PzT3PuCeINS3_9U5LRzuRShnMcc=" alt="A professional woman's hands signing an important document." class="rounded-lg shadow-2xl w-full"></div><div class="fade-in-section"><h2 class="font-serif text-4xl font-bold text-navy mb-4">Your Confidence is Our Commitment</h2><p class="text-lg text-navy/80 mb-6 leading-relaxed">For life's most significant moments, you need a partner built on trust and efficiency. Signed & Secured brings professional, secure services directly to your door throughout Sacramento, Placer, and El Dorado Counties. Whether for a home closing, Live Scan, or a new insurance policy, our mission is to make your experience seamless and give you total peace of mind.</p></div></div></div>
+        </section>
+        
+        <section id="services" class="py-16 md:py-24 bg-light-navy text-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="font-serif text-4xl font-bold text-white mb-4 fade-in-section">Our Core Services</h2>
+                    <p class="text-xl text-cream/80 max-w-3xl mx-auto fade-in-section">Expertly delivered solutions, designed for your convenience.</p>
+                </div>
+                <div class="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <a href="#resource-notary" class="service-card-link group">
+                        <div class="service-card bg-navy rounded-lg p-8 fade-in-section">
+                            <h3 class="font-serif text-2xl font-semibold text-gold mb-4">Mobile Notary Public</h3>
+                            <p class="text-cream/80 flex-grow">As a mobile notary in Sacramento County, we travel to you for convenient notarization of legal documents, including trusts, deeds, and loan signings.</p>
+                            <span class="mt-4 font-bold text-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Learn More &rarr;</span>
+                        </div>
+                    </a>
+                    <a href="#resource-apostille" class="service-card-link group">
+                        <div class="service-card bg-navy rounded-lg p-8 fade-in-section" style="transition-delay: 150ms;">
+                            <h3 class="font-serif text-2xl font-semibold text-gold mb-4">Apostille Services</h3>
+                            <p class="text-cream/80 flex-grow">We facilitate the apostille process, authenticating your documents for international use in countries that are part of the Hague Convention.</p>
+                             <span class="mt-4 font-bold text-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Learn More &rarr;</span>
+                        </div>
+                    </a>
+                    <a href="#resource-livescan" class="service-card-link group">
+                        <div class="service-card bg-navy rounded-lg p-8 fade-in-section" style="transition-delay: 300ms;">
+                            <h3 class="font-serif text-2xl font-semibold text-gold mb-4">Live Scan Fingerprinting</h3>
+                            <p class="text-cream/80 flex-grow">Our Live Scan fingerprinting in Rancho Cordova provides a secure, digital method for state and federal background checks.</p>
+                             <span class="mt-4 font-bold text-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Learn More &rarr;</span>
+                        </div>
+                    </a>
+                    <a href="#resource-life-insurance" class="service-card-link group">
+                        <div class="service-card bg-navy rounded-lg p-8 fade-in-section" style="transition-delay: 450ms;">
+                            <h3 class="font-serif text-2xl font-semibold text-gold mb-4">Insurance Services</h3>
+                            <p class="text-cream/80 flex-grow">Protect what matters most. We offer personalized life, health, and property insurance solutions to clients across the Folsom and El Dorado Hills area.</p>
+                             <span class="mt-4 font-bold text-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Learn More &rarr;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-16 md:py-24 bg-pale-gold">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="font-serif text-4xl font-bold text-navy mb-4 fade-in-section">What Our Clients Say</h2>
+                    <div class="w-24 h-1 bg-gold mx-auto fade-in-section"></div>
+                </div>
+                <div id="testimonial-carousel" class="testimonial-carousel-container fade-in-section">
+                    <div class="overflow-hidden">
+                        <div class="testimonial-slider">
+                            <div class="testimonial-slide p-2">
+                                <div class="bg-cream p-8 rounded-lg shadow-lg flex flex-col h-full">
+                                    <svg class="w-10 h-10 text-gold opacity-25 mb-4 self-start" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.25,4C5.02,4,0,8.04,0,13.25c0,2.5,1.2,4.8,3.16,6.44L3,22l2.7-1.38C7.12,21.5,8.83,22,11.25,22C17.48,22,22.5,17.96,22.5,12.75S17.48,4,11.25,4z"/></svg>
+                                    <p class="font-sans text-base text-navy/80 mb-6 leading-relaxed flex-grow">"Wonderful customer service. Very friendly and helpful and above all honest!! I had to use service from out of state and she did a terrific job!!!"</p>
+                                    <div class="pt-4 border-t border-navy/10 text-right">
+                                        <p class="font-bold text-gold text-lg">- Candace R.</p>
+                                        <p class="text-sm text-navy/60 italic">From Yelp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide p-2">
+                                <div class="bg-cream p-8 rounded-lg shadow-lg flex flex-col h-full">
+                                    <svg class="w-10 h-10 text-gold opacity-25 mb-4 self-start" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.25,4C5.02,4,0,8.04,0,13.25c0,2.5,1.2,4.8,3.16,6.44L3,22l2.7-1.38C7.12,21.5,8.83,22,11.25,22C17.48,22,22.5,17.96,22.5,12.75S17.48,4,11.25,4z"/></svg>
+                                    <p class="font-sans text-base text-navy/80 mb-6 leading-relaxed flex-grow">"I had an outstanding experience using their notary and life insurance services! From start to finish, they were professional, knowledgeable, and incredibly helpful... What really stood out was how they took the time to educate me... I never felt rushed or overwhelmed."</p>
+                                    <div class="pt-4 border-t border-navy/10 text-right">
+                                        <p class="font-bold text-gold text-lg">- Andaes W.</p>
+                                        <p class="text-sm text-navy/60 italic">From Thumbtack</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide p-2">
+                                <div class="bg-cream p-8 rounded-lg shadow-lg flex flex-col h-full">
+                                    <svg class="w-10 h-10 text-gold opacity-25 mb-4 self-start" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.25,4C5.02,4,0,8.04,0,13.25c0,2.5,1.2,4.8,3.16,6.44L3,22l2.7-1.38C7.12,21.5,8.83,22,11.25,22C17.48,22,22.5,17.96,22.5,12.75S17.48,4,11.25,4z"/></svg>
+                                    <p class="font-sans text-base text-navy/80 mb-6 leading-relaxed flex-grow">"From start to finish, everything was quick, convenient, and handled with great professionalism. Communication was clear and timely, which made the entire process stress free. I was in urgent need of a notary, and they went above and beyond."</p>
+                                    <div class="pt-4 border-t border-navy/10 text-right">
+                                        <p class="font-bold text-gold text-lg">- Ilyshiaw B.</p>
+                                         <p class="text-sm text-navy/60 italic">From Google</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide p-2">
+                                <div class="bg-cream p-8 rounded-lg shadow-lg flex flex-col h-full">
+                                    <svg class="w-10 h-10 text-gold opacity-25 mb-4 self-start" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.25,4C5.02,4,0,8.04,0,13.25c0,2.5,1.2,4.8,3.16,6.44L3,22l2.7-1.38C7.12,21.5,8.83,22,11.25,22C17.48,22,22.5,17.96,22.5,12.75S17.48,4,11.25,4z"/></svg>
+                                    <p class="font-sans text-base text-navy/80 mb-6 leading-relaxed flex-grow">"I can’t thank Signed & Secured Notary and Shyreese enough! She went above and beyond to help me with a legal signing on a recent holiday when nearly every other notary was closed. Her professionalism, patience, and willingness to show up when others wouldn’t meant everything."</p>
+                                    <div class="pt-4 border-t border-navy/10 text-right">
+                                        <p class="font-bold text-gold text-lg">- Domoniquic M.</p>
+                                        <p class="text-sm text-navy/60 italic">From Google</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="resources" class="py-16 md:py-24 bg-light-navy">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto space-y-4 fade-in-section">
+                    <div class="accordion-item" data-level="1">
+                        <button class="accordion-trigger bg-cream border border-gold/20 shadow-lg rounded-lg w-full flex justify-center items-center text-center p-6 transition-transform hover:scale-105">
+                            <span class="font-serif text-3xl font-bold text-gold">Client Resource Center</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="py-4 space-y-4">
+                                <div id="resource-notary" class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Mobile Notary & Loan Signings</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-4"><p class="pt-4">A mobile notary is a Notary Public who travels to meet clients in-person. As an impartial witness licensed by the state, our primary role is to verify the identity of document signers, ensuring they sign willingly and under their own free will. This vital service helps prevent fraud in important legal and financial transactions. To ensure a smooth appointment, please be prepared with the following:</p><div class="mt-4 p-4 rounded-lg bg-pale-gold border-l-4 border-gold"><h4 class="font-bold text-navy mb-2">Appointment Checklist</h4><ul class="list-none space-y-1 text-navy/90"><li><p>✓ <strong>Complete, Unsigned Document(s):</strong><br><span class="text-sm italic text-navy/70">Please fill out all information *except* for your signature and the date. Do not sign beforehand.</span></p></li><li>✓ A valid, unexpired photo ID (e.g., Driver's License, Passport).</li></ul></div></div></div></div>
+                                <div id="resource-apostille" class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Apostille Services</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-4"><p class="pt-4">An apostille is a specialized certificate from the Secretary of State that authenticates documents for use in foreign countries. We help you navigate this complex process.</p><div class="mt-4 p-4 rounded-lg bg-pale-gold border-l-4 border-gold"><h4 class="font-bold text-navy mb-2">What to Provide</h4><ul class="list-none space-y-1 text-navy/90"><li>✓ The original document needing authentication.</li><li>✓ The name of the destination country.</li></ul></div><h4 class="font-bold text-navy mb-2 mt-4">How It Works</h4><ol class="apostille-process"><li><strong>Verification:</strong> We first verify your document is eligible and notarize it if required.</li><li><strong>State Submission:</strong> We then present your documents to the California Secretary of State for the final apostille certificate.</li><li><strong>Final Return:</strong> Once authenticated, we return the completed documents to you, ready for international use.</li></ol><p class="pt-2">Common documents we apostille include birth/death certificates, marriage licenses, powers of attorney, school transcripts, corporate documents, and more.</p><h4 class="font-bold text-navy mb-2 mt-4">Official Links & Forms</h4><div class="space-y-3"><a href="https://travel.state.gov/content/travel/en/Intercountry-Adoption/Adoption-Process/understanding-the-hague-convention/convention-countries.html" target="_blank" rel="noopener noreferrer" class="block p-3 text-center bg-navy text-cream rounded-md hover:bg-light-navy transition-colors duration-300">Hague Convention Countries List</a><a href="https://www.sos.ca.gov/notary/apostille-faqs" target="_blank" rel="noopener noreferrer" class="block p-3 text-center bg-navy text-cream rounded-md hover:bg-light-navy transition-colors duration-300">California SOS Apostille FAQs</a><a href="https://notary.cdn.sos.ca.gov/forms/apostille-request-sac.pdf" target="_blank" rel="noopener noreferrer" class="block p-3 text-center bg-navy text-cream rounded-md hover:bg-light-navy transition-colors duration-300">Download Sacramento Request Form</a></div></div></div></div>
+                                <div id="resource-livescan" class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Live Scan Fingerprinting</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-4"><p class="pt-4">Live Scan is a modern, inkless method of electronic fingerprinting. The prints are captured digitally and transmitted securely to the Department of Justice (DOJ) and FBI for criminal background checks, which are often required for employment, licensing, and certifications.</p><div class="mt-4 p-4 rounded-lg bg-pale-gold border-l-4 border-gold"><h4 class="font-bold text-navy mb-2">Appointment Checklist</h4><ul class="list-none space-y-1 text-navy/90"><li>✓ Your completed "Request for Live Scan Service" form. <span class="text-sm italic text-navy/70">Ensure your ORI Number is filled in. Please contact your requesting agency or employer to obtain this number.</span></li><li>✓ A valid photo ID.</li></ul></div><div class="text-center mt-6"><a href="https://www.cdph.ca.gov/CDPH%20Document%20Library/ControlledForms/BCIA8016sample.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-navy text-cream font-bold py-3 px-6 rounded-md hover:bg-gold hover:text-navy transition-all duration-300 shadow-lg">View Sample Live Scan Form</a></div></div></div></div>
+                                <div id="resource-life-insurance" class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Understanding Life Insurance</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-6"><p class="pt-4">Protecting your family's future is one of the most important decisions you'll make. Life insurance can seem complex, so we've simplified the three main types below to help you begin your research before our consultation.</p><div class="chart-table text-xs"><div class="chart-header"><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell">Feature</div><div class="chart-cell">Term Life</div><div class="chart-cell">Whole Life</div><div class="chart-cell">Indexed Universal (IUL)</div></div></div><div class="chart-body"><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Duration</div><div class="chart-cell" data-label="Term Life">Temporary (10-30 years)</div><div class="chart-cell" data-label="Whole Life">Permanent</div><div class="chart-cell" data-label="IUL">Permanent</div></div><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Cost</div><div class="chart-cell" data-label="Term Life">Lowest</div><div class="chart-cell" data-label="Whole Life">Highest</div><div class="chart-cell" data-label="IUL">Flexible</div></div><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Cash Value</div><div class="chart-cell" data-label="Term Life">None</div><div class="chart-cell" data-label="Whole Life">Yes, guaranteed</div><div class="chart-cell" data-label="IUL">Yes, market-indexed</div></div><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Best For</div><div class="chart-cell" data-label="Term Life">Affordable protection for specific timeframes (mortgage, raising kids).</div><div class="chart-cell" data-label="Whole Life">Leaving a legacy, estate planning, and guaranteed, conservative growth.</div><div class="chart-cell" data-label="IUL">Building tax-advantaged retirement income with market growth potential.</div></div></div></div><p class="pt-4 text-xs italic">All insurance solicitations are conducted under the registered fictitious business name (DBA) Signed Insurance Solutions in the State of California.</p><div class="text-center mt-6"><a href="https://www.planenroll.com/?purl=Shyreese-Tyiska" target="_blank" rel="noopener noreferrer" class="inline-block bg-gold text-white font-bold py-3 px-6 rounded-md hover:bg-navy transition-all duration-300 shadow-lg">Explore Pricing Options</a></div></div></div></div>
+                                <div class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Understanding Health Insurance</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-6"><p class="pt-4">Navigating health insurance is essential for your well-being and financial security. This chart breaks down the key differences between common plan types.</p><div class="chart-table text-xs"><div class="chart-header"><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell">Feature</div><div class="chart-cell">HMO</div><div class="chart-cell">PPO</div><div class="chart-cell">EPO</div></div></div><div class="chart-body"><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Full Name</div><div class="chart-cell" data-label="HMO">Health Maintenance Org.</div><div class="chart-cell" data-label="PPO">Preferred Provider Org.</div><div class="chart-cell" data-label="EPO">Exclusive Provider Org.</div></div><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Referrals Needed</div><div class="chart-cell" data-label="HMO">Yes, to see specialists.</div><div class="chart-cell" data-label="PPO">No, you can self-refer.</div><div class="chart-cell" data-label="EPO">No, you can self-refer.</div></div><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Out-of-Network</div><div class="chart-cell" data-label="HMO">No coverage (emergencies only).</div><div class="chart-cell" data-label="PPO">Yes, but at a higher cost.</div><div class="chart-cell" data-label="EPO">No coverage (emergencies only).</div></div><div class="chart-row" style="grid-template-columns: 1fr 1fr 1fr 1fr;"><div class="chart-cell" data-label="Feature">Best For</div><div class="chart-cell" data-label="HMO">Cost-conscious individuals who want a primary doctor to coordinate their care.</div><div class="chart-cell" data-label="PPO">Flexibility and choice, allowing you to see any doctor without referrals.</div><div class="chart-cell" data-label="EPO">A middle ground offering choice within a network, without needing referrals.</div></div></div></div><p class="pt-4 text-xs italic">All insurance solicitations are conducted under the registered fictitious business name (DBA) Signed Insurance Solutions in the State of California.</p><div class="text-center mt-6"><a href="https://www.planenroll.com/?purl=Shyreese-Tyiska" target="_blank" rel="noopener noreferrer" class="inline-block bg-gold text-white font-bold py-3 px-6 rounded-md hover:bg-navy transition-all duration-300 shadow-lg">Explore Pricing Options</a></div></div></div></div>
+                                <div class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Understanding Property & Casualty (Liability)</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-6"><p class="pt-4">Property & Casualty (P&C) insurance protects your most valuable assets against accidents and liability. Explore the basics below.</p><div class="chart-table text-xs"><div class="chart-header"><div class="chart-row" style="grid-template-columns: repeat(5, 1fr);"><div class="chart-cell">Feature</div><div class="chart-cell">Homeowners</div><div class="chart-cell">Renters</div><div class="chart-cell">Auto</div><div class="chart-cell">Business</div></div></div><div class="chart-body"><div class="chart-row" style="grid-template-columns: repeat(5, 1fr);"><div class="chart-cell" data-label="Feature">What it Protects</div><div class="chart-cell" data-label="Homeowners">Your house structure and personal belongings.</div><div class="chart-cell" data-label="Renters">Your personal belongings within a rental unit.</div><div class="chart-cell" data-label="Auto">Your vehicle and liability in an accident.</div><div class="chart-cell" data-label="Business">Your business assets, operations, and liability.</div></div><div class="chart-row" style="grid-template-columns: repeat(5, 1fr);"><div class="chart-cell" data-label="Feature">Key Benefit</div><div class="chart-cell" data-label="Homeowners">Rebuilds your largest asset after a disaster.</div><div class="chart-cell" data-label="Renters">Affordably replaces everything you own.</div><div class="chart-cell" data-label="Auto">Covers costly repairs and medical bills after a crash.</div><div class="chart-cell" data-label="Business">Protects against lawsuits and financial loss.</div></div><div class="chart-row" style="grid-template-columns: repeat(5, 1fr);"><div class="chart-cell" data-label="Feature">Also Includes</div><div class="chart-cell" data-label="Homeowners">Liability protection if someone is injured on your property.</div><div class="chart-cell" data-label="Renters">Liability protection for accidents within your unit.</div><div class="chart-cell" data-label="Auto">Liability for damages or injuries you cause to others.</div><div class="chart-cell" data-label="Business">General liability, professional liability (E&O), and commercial auto.</div></div></div></div><p class="pt-4 text-xs italic">All insurance solicitations are conducted under the registered fictitious business name (DBA) Signed Insurance Solutions in the State of California.</p></div></div></div>
+                                <div class="accordion-item bg-white shadow-lg rounded-lg" data-level="2"><button class="accordion-trigger w-full flex justify-between items-center text-left p-6"><span class="font-serif text-2xl font-semibold text-navy">Frequently Asked Questions</span><svg class="accordion-icon w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="accordion-content"><div class="px-6 pb-6 text-navy/80 leading-relaxed space-y-6"><div class="pt-4"><h4 class="font-bold text-navy mb-2">How does the mobile notary process work?</h4><p>It's simple. First, you book an appointment online. We then travel to your preferred location in the Greater Sacramento area. At the appointment, we verify the signer's identity with a valid photo ID, witness the signing, and complete the notarization. It’s a secure and convenient service from start to finish.</p></div><div><h4 class="font-bold text-navy mb-2">How are fees determined for a mobile notary?</h4><p>For transparency, our pricing is simple: a standard, state-regulated fee for each signature notarized, plus a mobile convenience fee for travel from our base in Rancho Cordova. We will verify the signature count and provide a final quote for your approval before we begin.</p></div><div><h4 class="font-bold text-navy mb-2">What do I need for my appointment?</h4><p>Please have two things ready: the complete, unsigned document(s) you need notarized, and a valid, government-issued photo ID for every person signing. Acceptable forms of ID include a state driver's license, passport, or military ID.</p></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service-area" class="py-16 md:py-24 bg-pale-gold">
+            <div class="container mx-auto px-6 text-center"><div class="max-w-4xl mx-auto fade-in-section"><svg class="w-16 h-16 mx-auto text-gold mb-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+                <h2 class="font-serif text-4xl font-bold text-navy mb-4">Serving the Greater Sacramento Area</h2>
+                <p class="text-xl text-navy/80 mb-8">We proudly provide mobile services to clients throughout Sacramento, Placer, and El Dorado Counties, including:</p>
+                <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-lg text-navy/90">
+                    <span>Rancho Cordova</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Folsom</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Fair Oaks</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Carmichael</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Sacramento</span><span class="text-gold mx-2">&bull;</span>
+                    <span>West Sacramento</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Natomas</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Elk Grove</span><span class="text-gold mx-2">&bull;</span>
+                    <span>El Dorado Hills</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Citrus Heights</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Roseville</span><span class="text-gold mx-2">&bull;</span>
+                    <span>Rocklin</span>
+                </div>
+                <p class="text-sm text-navy/70 mt-6">If your city isn't listed, please contact us to confirm our availability for your location.</p>
+            </div></div>
+        </section>
+
+        <footer class="bg-navy text-cream/70 pt-16 pb-6">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-3 gap-8 items-start mb-8">
+                    <div class="md:col-span-1"><h4 class="font-bold text-white uppercase tracking-wider mb-4 text-sm">Signed & Secured</h4><p class="text-sm">Serving the Greater Sacramento Area by appointment only.</p></div>
+                    <div class="flex space-x-8">
+                        <div><h4 class="font-bold text-white uppercase tracking-wider mb-4 text-sm">Company</h4><ul class="space-y-2 text-sm"><li><a href="#about" class="hover:text-gold transition-colors">About Us</a></li><li><a href="#resources" class="hover:text-gold transition-colors">Resources</a></li></ul></div>
+                        <div><h4 class="font-bold text-white uppercase tracking-wider mb-4 text-sm">Services</h4><ul class="space-y-2 text-sm"><li><a href="#services" class="hover:text-gold transition-colors">Mobile Notary</a></li><li><a href="#services" class="hover:text-gold transition-colors">Live Scan</a></li><li><a href="#services" class="hover:text-gold transition-colors">Insurance</a></li></ul></div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white uppercase tracking-wider mb-4 text-sm">Connect</h4>
+                        <div class="space-y-3 text-sm">
+                            <p><a href="tel:916-761-0211" class="hover:text-gold transition-colors">916-761-0211</a></p>
+                            <p><a href="mailto:info@signedsecured.com" class="hover:text-gold transition-colors">info@signedsecured.com</a></p>
+                            <div class="flex space-x-4 pt-2">
+                                <a href="https://www.facebook.com/profile.php?id=61578014675192" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon text-[#1877F2]"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-12c-3.313 0-6 2.687-6 6v12c0 3.313 2.687 6 6 6h12c3.313 0 6-2.687 6-6v-12c0-3.313-2.687-6-6-6zm-7 19.099v-7.099h-2v-3h2v-2.045c0-1.723 1.251-4.955 4.981-4.955h2.019v3h-1.558c-.854 0-1.422.588-1.422 1.541v1.459h3.018l-.531 3h-2.487v7.099h-2z"/></svg></a>
+                                <a href="https://www.instagram.com/signed.secured" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon"><svg class="w-6 h-6" fill="url(#instagram-gradient)" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="instagram-gradient" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#feda75;"/><stop offset="25%" style="stop-color:#fa7e1e;"/><stop offset="50%" style="stop-color:#d62976;"/><stop offset="75%" style="stop-color:#962fbf;"/><stop offset="100%" style="stop-color:#4f5bd5;"/></linearGradient></defs><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.225 1.664-4.771 4.919-4.919C8.355 2.175 8.741 2.163 12 2.163m0-2.163C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 pt-8 border-t border-cream/10 text-center text-xs text-cream/50 space-y-3">
+                    <p>Insurance services offered through Signed Insurance Solutions, a DBA of Signed & Secured.</p>
+                    <div class="flex justify-center items-center space-x-4">
+                        <button class="modal-trigger hover:text-gold transition-colors" data-modal="privacy-policy">Privacy Policy</button>
+                        <span>|</span>
+                        <button class="modal-trigger hover:text-gold transition-colors" data-modal="terms-of-service">Terms of Service</button>
+                        <span>|</span>
+                        <button class="modal-trigger hover:text-gold transition-colors" data-modal="accessibility-statement">Accessibility</button>
+                    </div>
+                    <p class="pt-4">&copy; <span id="current-year">2025</span> Signed & Secured. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <div id="privacy-policy" class="modal"><div class="modal-content text-cream/80 container mx-auto p-8 max-w-4xl h-full overflow-y-auto relative"><button class="modal-close-btn absolute top-8 right-8 text-4xl" aria-label="Close Privacy Policy">&times;</button><h2>Privacy Policy</h2><p>Last Updated: August 21, 2025</p><h3>Introduction</h3><p>Signed &amp; Secured ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p></div></div>
+    <div id="terms-of-service" class="modal"><div class="modal-content text-cream/80 container mx-auto p-8 max-w-4xl h-full overflow-y-auto relative"><button class="modal-close-btn absolute top-8 right-8 text-4xl" aria-label="Close Terms of Service">&times;</button><h2>Terms of Service</h2><h3>1. Agreement to Terms</h3><p>By using our website and services, you agree to be bound by these Terms of Service. If you do not agree, do not use the site or services.</p></div></div>
+    <div id="accessibility-statement" class="modal"><div class="modal-content text-cream/80 container mx-auto p-8 max-w-4xl h-full overflow-y-auto relative"><button class="modal-close-btn absolute top-8 right-8 text-4xl" aria-label="Close Accessibility Statement">&times;</button><h2>Accessibility Statement</h2><h3>General</h3><p>Signed &amp; Secured is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.</p></div></div>
+
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const heroVideo = document.getElementById('hero-video');
+        if (heroVideo) {
+            heroVideo.muted = true;
+            heroVideo.play().catch(error => console.log("Autoplay prevented.", error));
+        }
+        
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => { 
+            const logo = header.querySelector('img');
+            if (window.scrollY > 50) {
+                logo.classList.remove('h-14');
+                logo.classList.add('h-10');
+            } else {
+                logo.classList.add('h-14');
+                logo.classList.remove('h-10');
+            }
+        });
+
+        const fadeObserver = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); fadeObserver.unobserve(entry.target); } }); }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-in-section').forEach(section => fadeObserver.observe(section));
+        
+        const accordionTriggers = document.querySelectorAll('.accordion-trigger');
+        accordionTriggers.forEach(trigger => {
+            trigger.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const parentItem = this.parentElement;
+                const isOpen = content.style.maxHeight;
+                const parentAccordionContent = parentItem.closest('.accordion-content');
+
+                const parentContainer = parentItem.parentElement;
+                parentContainer.querySelectorAll('.accordion-item[data-level="' + parentItem.dataset.level + '"]').forEach(otherItem => {
+                    if (otherItem !== parentItem) {
+                        const otherContent = otherItem.querySelector('.accordion-content');
+                        const otherIcon = otherItem.querySelector('.accordion-icon');
+                        if (otherContent) otherContent.style.maxHeight = null;
+                        if(otherIcon) otherIcon.style.transform = 'rotate(0deg)';
+                    }
+                });
+
+                if (isOpen) {
+                    content.style.maxHeight = null;
+                    const icon = this.querySelector('.accordion-icon');
+                    if(icon) icon.style.transform = 'rotate(0deg)';
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    const icon = this.querySelector('.accordion-icon');
+                    if(icon) icon.style.transform = 'rotate(180deg)';
+                }
+
+                if (parentAccordionContent && parentAccordionContent.style.maxHeight) {
+                    setTimeout(() => {
+                        parentAccordionContent.style.maxHeight = parentAccordionContent.scrollHeight + 'px';
+                    }, 500);
+                }
+            });
+        });
+
+        document.querySelectorAll('.modal-trigger').forEach(button => {
+            button.addEventListener('click', () => {
+                const modalId = button.dataset.modal;
+                document.getElementById(modalId).classList.add('visible');
+            });
+        });
+        document.querySelectorAll('.modal-close-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                button.closest('.modal').classList.remove('visible');
+            });
+        });
+        
+        document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    modal.classList.remove('visible');
+                }
+            });
+        });
+
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+        
+        const toggleMenu = () => {
+            btn.classList.toggle('open');
+            menu.classList.toggle('hidden');
+            document.body.classList.toggle('overflow-hidden');
+        };
+
+        btn.addEventListener('click', toggleMenu);
+        menu.addEventListener('click', (e) => {
+            if (e.target.classList.contains('menu-link')) {
+                toggleMenu();
+            }
+        });
+        
+        document.addEventListener('click', (e) => {
+          if (btn.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+            toggleMenu();
+          }
+        });
+        
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        const carousel = document.getElementById('testimonial-carousel');
+        if (carousel) {
+            const slider = carousel.querySelector('.testimonial-slider');
+            const slides = carousel.querySelectorAll('.testimonial-slide');
+            const dotsContainer = carousel.querySelector('.carousel-dots');
+            let currentIndex = 0;
+            let slideInterval;
+
+            slides.forEach((_, i) => {
+                const dot = document.createElement('button');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+                dot.addEventListener('click', () => {
+                    goToSlide(i);
+                    resetInterval();
+                });
+                dotsContainer.appendChild(dot);
+            });
+            const dots = dotsContainer.querySelectorAll('.dot');
+
+            const goToSlide = (index) => {
+                slider.style.transform = `translateX(-${index * 100}%)`;
+                dots.forEach(dot => dot.classList.remove('active'));
+                dots[index].classList.add('active');
+                currentIndex = index;
+            };
+
+            const nextSlide = () => {
+                const nextIndex = (currentIndex + 1) % slides.length;
+                goToSlide(nextIndex);
+            };
+
+            const startInterval = () => {
+                slideInterval = setInterval(nextSlide, 6000);
+            };
+
+            const resetInterval = () => {
+                clearInterval(slideInterval);
+                startInterval();
+            };
+
+            carousel.addEventListener('mouseenter', () => clearInterval(slideInterval));
+            carousel.addEventListener('mouseleave', startInterval);
+            carousel.addEventListener('touchstart', () => clearInterval(slideInterval), {passive: true});
+            carousel.addEventListener('touchend', startInterval, {passive: true});
+
+            startInterval();
+        }
+
+        document.querySelectorAll('.service-card-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const targetAccordionItem = document.querySelector(targetId);
+                if (targetAccordionItem) {
+                    targetAccordionItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    
+                    const masterAccordion = document.querySelector('[data-level="1"]');
+                    const masterContent = masterAccordion.querySelector('.accordion-content');
+                    
+                    setTimeout(() => {
+                        if (!masterContent.style.maxHeight) {
+                            masterAccordion.querySelector('.accordion-trigger').click();
+                        }
+                        setTimeout(() => {
+                            const targetTrigger = targetAccordionItem.querySelector('.accordion-trigger');
+                            if (!targetTrigger.nextElementSibling.style.maxHeight) {
+                                targetTrigger.click();
+                            }
+                        }, 500);
+                    }, 700);
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
