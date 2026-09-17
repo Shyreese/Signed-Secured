@@ -1,0 +1,10 @@
+{
+  "description": "Offers mobile notary, apostille, Live Scan, and insurance services with clear guidance tailored for seniors, businesses, and first-time users in Sacramento.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
