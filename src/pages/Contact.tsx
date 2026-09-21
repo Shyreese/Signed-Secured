@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { usePageMeta } from '../hooks/usePageMeta'
+import contactHero from '../assets/contact-hero.jpg'
 import shyreesePhoto from '../imports/paste_152ff671-79f7-4639-b7e0-d639b24a31e2-1.png'
 import { SiteHeader } from '../components/SiteHeader'
 import { SiteFooter } from '../components/SiteFooter'
@@ -215,7 +216,7 @@ export default function Contact() {
         {/* Hero */}
         <section
           className="relative border-b border-[#e0e0e0] bg-[#0b1245] bg-cover bg-center"
-          style={{ backgroundImage: "url('/src/assets/contact-hero.jpg')" }}
+          style={{ backgroundImage: `url(${contactHero})` }}
         >
           <div className="absolute inset-0 bg-[#0b1245]/70" aria-hidden="true" />
           <div className={`relative ${WRAP} py-14 text-center sm:py-20`}>

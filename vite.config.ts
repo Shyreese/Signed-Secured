@@ -1,6 +1,7 @@
 import { defineConfig, type HtmlTagDescriptor, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import fs from 'node:fs'
 import path from 'node:path'
 
 import siteConfiguration from './.figma/make/site.json'
@@ -19,6 +20,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react(),
       tailwindcss(),
+      githubPagesSpaFallback(),
       figmaSiteConfiguration(siteConfiguration),
       figmaErrorOverlayReplay(),
       figmaReactRefreshBoundaryFallback(),
@@ -45,6 +47,18 @@ export default defineConfig(({ mode }) => {
     },
   }
 })
+
+function githubPagesSpaFallback(): Plugin {
+  return {
+    name: 'github-pages-spa-fallback',
+    writeBundle() {
+      const indexPath = path.resolve('dist/index.html')
+      const fallbackPath = path.resolve('dist/404.html')
+
+      if (fs.existsSync(indexPath)) fs.copyFileSync(indexPath, fallbackPath)
+    },
+  }
+}
 
 type FigmaSiteConfiguration = {
   title?: string
