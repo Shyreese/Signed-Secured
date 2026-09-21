@@ -2,7 +2,7 @@ name: Deploy Site to GitHub Pages
 
 on:
   push:
-    branches: ["New-SS"] # Replace with your actual branch name (e.g., "dev", "staging", "v2")
+    branches: ["New-SS"] 
 
 permissions:
   contents: read
