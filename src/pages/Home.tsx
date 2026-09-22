@@ -289,7 +289,7 @@ const PLANS = [
   },
   {
     title: 'Live Scan & Apostille',
-    price: '$45 per service',
+    price: '$45 rolling fee plus FBI and DOJ fees',
     sub: 'Price builds based on the number of services and documents needed, final total confirmed before we begin.',
     pricingHref: '/services',
     features: [
