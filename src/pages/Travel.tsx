@@ -156,17 +156,6 @@ function DocumentSignings() {
   )
 }
 
-function BookingH2() {
-  return (
-    <div className="border-b border-[#e0e0e0] bg-white pb-0 pt-14">
-      <div className={`${WRAP}`}>
-        <h2 className="font-['Inter:Medium',sans-serif] text-[30px] leading-[1.2] text-[#0b1245]">
-          Flight and hotel booking help
-        </h2>
-      </div>
-    </div>
-  )
-}
 
 const TRUST = [
   {
@@ -208,6 +197,10 @@ function TrustBar() {
   return (
     <section id="why" className="scroll-mt-24 bg-[#365485]">
       <div className={`${WRAP} py-14`}>
+        <h2 className="text-center font-['Inter:Medium',sans-serif] text-[30px] leading-[1.2] text-white">
+          Flight and hotel booking help
+        </h2>
+        <br></br>
         <h2 className="text-center font-['Inter:Medium',sans-serif] text-[24px] text-white">
           Why book your travel with us
         </h2>
@@ -409,7 +402,6 @@ export default function Travel() {
       <main>
         <Hero />
         <DocumentSignings />
-        <BookingH2 />
         <TrustBar />
         <HowItWorks />
         <Pricing />
