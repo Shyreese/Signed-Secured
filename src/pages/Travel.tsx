@@ -156,7 +156,6 @@ function DocumentSignings() {
   )
 }
 
-
 const TRUST = [
   {
     title: 'Real person, not a booking site',
